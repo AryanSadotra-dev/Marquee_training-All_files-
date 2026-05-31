@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  min-height: 100vh;
+  padding: 40px 0 60px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #eee;
+}
+.h1 {
+  font-size: 35px;
+  font-style: italic;
+  color: #424242;
+  margin-bottom: 30px;
+}
+body {
+  --Primary: #ffffff;
+  --border: 1px solid #000;
+  --h3: 20px;
+  --img-size: 150px;
+  --card-width: 280px;
+  --p-color: #25e31e;
+  background: #eee;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.soft-drinks,
+.pastries,
+.appetizers {
+  display: block;
+  width: min(100%, var(--card-width));
+  margin: 0 auto 30px;
+  padding: 18px;
+  background: var(--Primary);
+  border: var(--border);
+  border-radius: 12px;
+  text-align: center;
+}
+.soft-drinks img,
+.pastries img,
+.appetizers img {
+  width: var(--img-size);
+  height: var(--img-size);
+  display:inline-block;
+  margin: 20px auto 0;
+  border-radius: 12px;
+}
+#t1 {
+  color: #d43fd4;
+}
+.t2 {
+  color: #ddeb47;
+}
+.t3 {
+  color: #11ff00;
+}
+h3 {
+  background-color: #fc4c07;
+  width: 100%;
+  height: 40px;
+  font-size: var(--h3);
+  margin: 0;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 8px;
+}
+p {
+  font-size: 15px;
+  margin: 20px 0 0;
+  color: var(--p-color);
+  line-height: 1.4;
+}
